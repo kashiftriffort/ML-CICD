@@ -45,7 +45,7 @@ jobs:
 
         - name: Test
           run: |
-            python -m pytest -vv test.py
+            python test.py
 
   cd_pipeline:
       runs-on: ubuntu-latest 
