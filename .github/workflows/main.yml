@@ -12,7 +12,9 @@ jobs:
       
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.10
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.9
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
