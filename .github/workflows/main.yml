@@ -1,5 +1,8 @@
 ci_pipeline: 
-       on: push  
+       on: 
+         push:
+           branches:
+             - main
        
        steps:
         - uses: actions/checkout@v1
